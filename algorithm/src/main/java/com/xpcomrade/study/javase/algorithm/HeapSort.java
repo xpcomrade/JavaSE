@@ -3,7 +3,7 @@ package com.xpcomrade.study.javase.algorithm;
 /**
  * Created by xpcomrade on 2016/7/18.
  * Copyright (c) 2016, xpcomrade@gmail.com All Rights Reserved.
- * Description: TODO(这里用一句话描述这个类的作用). <br/>
+ * Description: (堆排序). <br/>
  */
 public class HeapSort {
 
