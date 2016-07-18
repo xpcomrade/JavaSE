@@ -11,5 +11,6 @@
 
     <modules>
         <module>algorithm</module>
+        <module>data-structure</module>
     </modules>
 </project>
