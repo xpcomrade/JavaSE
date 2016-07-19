@@ -26,16 +26,21 @@ public class Fibonacci {
         }
     }
 
+    /**
+     * 获取第n个斐波那契数
+     * @param n
+     * @return 返回第n个斐波纳契数
+     */
     static long fibonacci(int n) {
         if (n == 1 || n == 2) {
             return 1;
         }
-        long num1 = 1, fibonacci = 1,temp = 0;
+        long num1 = 1, num2 = 1,temp = 0;
         for (int i = 2; i < n; i++) {
-            temp = fibonacci;
-            fibonacci += num1;
+            temp = num2;
+            num2 += num1;
             num1 = temp;
         }
-        return fibonacci;
+        return num2;
     }
 }
