@@ -11,6 +11,7 @@
 
     <modules>
         <module>rudiments</module>
+        <module>java-8-features</module>
     </modules>
 
     <properties>
