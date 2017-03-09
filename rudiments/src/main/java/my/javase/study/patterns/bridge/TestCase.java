@@ -1,7 +1,5 @@
 package my.javase.study.patterns.bridge;
 
-import com.xpcomrade.pattern.strategy.CallTypeEnum;
-import com.xpcomrade.pattern.strategy.Context;
 import org.junit.Test;
 
 /**

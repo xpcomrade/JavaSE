@@ -10,9 +10,6 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>algorithm</module>
-        <module>data-structure</module>
-        <module>design-pattern</module>
         <module>rudiments</module>
     </modules>
 

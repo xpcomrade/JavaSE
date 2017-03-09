@@ -5,8 +5,7 @@ import org.junit.Test;
 import java.util.BitSet;
 
 
-
-/** 
+/**
  * Created by wangzp
  * Date: 6:12:32 PM, Aug 7, 2014  
  * Copyright (c) 2014, wangzhongping@ddmap.com All Rights Reserved. 
