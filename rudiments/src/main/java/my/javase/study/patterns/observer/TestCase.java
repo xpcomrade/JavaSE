@@ -9,9 +9,7 @@ import org.junit.Test;
  */
 public class TestCase {
 
-    @Test
-    public void observer() {
-
+    public static void main(String[] args) {
         MyTopic mytopic = new MyTopic();
 
         Observer observer1 = new MyTopicSubcriber("observer1");

@@ -9,18 +9,16 @@ import org.junit.Test;
  */
 public class TestCase {
 
-    @Test
-    public void subway(){
+    public static void main(String[] args) {
         Subway subway = new Subway();
         subway.setTransport(new GuestTransport());
         subway.transport();
-    }
 
-    @Test
-    public void truck(){
+
         Truck truck = new Truck();
         truck.setTransport(new GoodsTransport());
         truck.transport();
+
     }
 
 }

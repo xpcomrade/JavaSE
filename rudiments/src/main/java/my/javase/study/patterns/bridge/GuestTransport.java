@@ -9,6 +9,6 @@ public class GuestTransport implements Transport {
 
     @Override
     public void transport() {
-        System.out.print("运送客人");
+        System.out.println("运送客人");
     }
 }
