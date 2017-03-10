@@ -7,8 +7,12 @@ package my.javase.study.patterns.adapter;
  */
 public class TestCase {
 
-    public static void main(String[] args) {
-        ScoreOperation operation = new OperationAdapter();
+    public static void main(String[] args) throws Exception{
+
+        //通过反射可以灵活的更改适配器 (做到配置化）
+        String adapterName = "my.javase.study.patterns.adapter.OperationAdapter";
+        Class c = Class.forName(adapterName);
+        ScoreOperation operation = (ScoreOperation)c.newInstance();
 
         int[] scores = {84,76,50,69,90,91,88,96};
 
