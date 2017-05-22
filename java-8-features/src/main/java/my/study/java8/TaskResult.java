@@ -1,22 +1,23 @@
-package my.study.java8.forkjoin;
+package my.study.java8;
 
 import java.io.Serializable;
 
 /**
- * Created by xpcomrade on 2017/4/12.
+ * Created by xpcomrade on 2017/4/13.
  * Copyright (c) 2017, xpcomrade@gmail.com All Rights Reserved.
  * Description: TODO(这里用一句话描述这个类的作用). <br/>
  */
-public class TaskResult implements Serializable {
+public class TaskResult<V> implements Serializable {
+
 
     private String taskType;
 
-    private Object result;
+    private V result;
 
     public TaskResult() {
     }
 
-    public TaskResult(String taskType, Object result) {
+    public TaskResult(String taskType, V result) {
         this.taskType = taskType;
         this.result = result;
     }
@@ -29,19 +30,11 @@ public class TaskResult implements Serializable {
         this.taskType = taskType;
     }
 
-    public Object getResult() {
+    public V getResult() {
         return result;
     }
 
-    public void setResult(Object result) {
+    public void setResult(V result) {
         this.result = result;
-    }
-
-    @Override
-    public String toString() {
-        return "TaskResult{" +
-                "taskType='" + taskType + '\'' +
-                ", result=" + result +
-                '}';
     }
 }
